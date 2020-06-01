@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="30dp"
+
+        android:layout_marginTop="150dp"
+        android:background="@drawable/squcol">
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/squae"
+            android:text="Event2"
+            android:textAlignment="center"
+
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginRight="136dp"
+            android:layout_marginBottom="295dp"
+            android:text="Description"
+            android:textAlignment="center"></TextView>
+
+        <TextView
+            android:layout_width="186dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:background="@drawable/squae"
+            android:layout_marginBottom="27dp"
+            android:text="123546978"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="127dp"
+            android:text="date and time"></TextView>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginRight="28dp"
+            android:background="@drawable/squae"
+            android:layout_marginBottom="181dp"
+            android:text="this is descrp"></TextView>
+
+        <TextView
+            android:layout_width="179dp"
+            android:layout_height="52dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/squae"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginBottom="96dp"
+            android:text="date ddetails"></TextView>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="245dp"
+            android:layout_marginRight="245dp"
+            android:layout_marginBottom="37dp"
+            android:text="contact him"></TextView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

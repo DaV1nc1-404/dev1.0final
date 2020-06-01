@@ -1,0 +1,48 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">main</string>
+    <string name="admin">Admin?</string>
+
+    <string-array name="menu">
+        <item>Menu</item>
+        <item>Idly</item>
+        <item>Dosa</item>
+        <item>parota</item>
+        <item>bonda</item>
+        <item>fried rice</item>
+        <item>Chicken fried rice</item>
+        <item>veg noodles</item>
+        <item>chicken noodles</item>
+        <item>veg manchuria</item>
+        <item>chicken mabchuria</item>
+        <item>cool drinks</item>
+    </string-array>
+    <string-array name="Events">
+        <item>Event 1</item>
+        <item>Event 2</item>
+        <item>Event 3</item>
+        <item>Event 4</item>
+        <item>Event 5</item>
+        <item>Event 6</item>
+    </string-array>
+    <string name="title_activity_nav">nav</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="price_per_1_unit">Price per 1 unit :</string>
+    <string name="_40">40</string>
+    <string name="select_quantity">Select Quantity</string>
+    <string name="total_price">Total Price:</string>
+    <string name="_0">0</string>
+    <string name="_0rs">0rs</string>
+    <string name="food">Food</string>
+    <string name="order">Order</string>
+</resources>

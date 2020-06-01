@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="416dp"></EditText>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="216dp"
+        android:background="@color/blue">
+
+        <ImageView
+            android:layout_width="155dp"
+            android:layout_height="134dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="135dp"
+            android:layout_marginBottom="44dp"
+            android:src="@drawable/profile"></ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="509dp"
+        android:background="@color/colorPrimary"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="328dp"
+            android:layout_marginBottom="414dp"
+            android:src="@drawable/ic_person_black_24dp"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="328dp"
+            android:layout_marginBottom="350dp"
+            android:src="@drawable/ic_email_black_24dp"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="328dp"
+            android:layout_marginBottom="288dp"
+            android:src="@drawable/school"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="330dp"
+            android:layout_marginBottom="224dp"
+            android:src="@drawable/roll"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="327dp"
+            android:layout_marginBottom="103dp"
+            android:src="@drawable/ic_lock"></ImageView>
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="40dp"
+            android:layout_height="42dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="329dp"
+            android:layout_marginBottom="165dp"
+            android:src="@drawable/phone"></ImageView>
+
+        <EditText
+            android:id="@+id/pMail"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="353dp"></EditText>
+
+        <EditText
+            android:id="@+id/pUn"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="414dp"
+            android:textColor="@color/brown"></EditText>
+
+        <EditText
+            android:id="@+id/pMob"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="167dp"></EditText>
+
+        <EditText
+            android:id="@+id/pPass"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="104dp"></EditText>
+
+        <EditText
+            android:id="@+id/pId"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="226dp"></EditText>
+
+        <EditText
+            android:id="@+id/PDes"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="12dp"
+            android:layout_marginBottom="287dp"></EditText>
+
+        <Button
+            android:id="@+id/pUd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="164dp"
+            android:layout_marginBottom="31dp"
+            android:background="@drawable/curved_rect"
+            android:text="update"
+            android:textColor="@color/colorPrimary" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="256dp"
+            android:layout_height="38dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="462dp"
+
+            android:text="Here is your Profile"
+            android:textSize="20dp" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="164dp"
+            android:layout_marginBottom="281dp"></ProgressBar>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

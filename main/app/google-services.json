@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "475987393245",
+    "firebase_url": "https://cmramenityfinal.firebaseio.com",
+    "project_id": "cmramenityfinal",
+    "storage_bucket": "cmramenityfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:475987393245:android:a06fd5a15b06372510b934",
+        "android_client_info": {
+          "package_name": "com.example.main"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "475987393245-81f83rnfnhktvk2feg0l4pgtlc6cv19t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.main",
+            "certificate_hash": "372dc484ae80427aae8b5c1e14285d5af522e33f"
+          }
+        },
+        {
+          "client_id": "475987393245-edoapifkkoap7a3f5488hn7ljpvt81tb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBucRMfD2EZNAmRVaGznvOSiV9jvr-6Uk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "475987393245-edoapifkkoap7a3f5488hn7ljpvt81tb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

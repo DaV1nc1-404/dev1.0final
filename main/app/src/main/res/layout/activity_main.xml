@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="32dp"
+
+
+        android:layout_marginRight="32dp"
+        android:layout_marginBottom="269dp"
+        android:hint="  Username or email"
+        android:textColorHint="@color/entry"
+        app:boxStrokeColor="@color/entry">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/unLI"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="420dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/blue"
+            android:transitionName="username"
+            app:boxStrokeColor="@color/entry">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="29dp"
+
+        android:layout_marginRight="29dp"
+        android:layout_marginBottom="191dp"
+        android:hint="  Password"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/blue"
+        android:textColorHint="@color/entry"
+        app:boxStrokeColor="@color/entry">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/pwLI"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:transitionName="password"
+            android:layout_marginTop="420dp"
+            android:drawableStart="@drawable/ic_lock"
+            android:drawableLeft="@drawable/ic_lock"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/entry">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/mLi"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="107dp"
+        android:layout_marginRight="107dp"
+        android:layout_marginBottom="116dp"
+        android:background="@drawable/rb"
+        android:text="Signin"
+        android:textColor="@color/colorPrimary"
+        android:transitionName="button" />
+
+    <TextView
+        android:id="@+id/fPasswd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="89dp"
+        android:text="Forgot Password?"
+        android:textColor="@color/text"
+        app:layout_constraintEnd_toEndOf="@+id/mLi"
+        app:layout_constraintStart_toStartOf="@+id/mLi"
+        app:layout_constraintTop_toBottomOf="@+id/mLi" />
+
+    <TextView
+        android:id="@+id/nAcc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/colorPrimary"
+        android:text="Don't Have an Account?"
+        android:textColor="@color/text"
+        app:layout_constraintEnd_toEndOf="@+id/fPasswd"
+        app:layout_constraintStart_toStartOf="@+id/fPasswd"
+        app:layout_constraintTop_toBottomOf="@+id/fPasswd" />
+
+
+    <Button
+        android:id="@+id/adminLi"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="38dp"
+        android:layout_marginRight="38dp"
+        android:layout_marginBottom="357dp"
+        android:background="@drawable/curved_rect"
+        android:text="Admin?"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="97dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="166dp"
+        android:layout_height="154dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="477dp"
+        app:srcCompat="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/texttRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="73dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="27dp"
+        android:text="REGISTER"
+        android:textColor="@color/blue" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+
+        android:orientation="vertical">
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CMR AMENITY"
+            android:textAlignment="center"
+            android:textSize="30dp"
+            android:paddingTop="32dp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="182dp"
+        android:layout_marginRight="182dp"
+        android:layout_marginBottom="372dp"
+        android:text=" Please login to get access" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="121dp"
+        android:layout_marginRight="121dp"
+        android:layout_marginBottom="427dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Welcome User"
+        android:textSize="30sp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="253dp"
+        android:layout_marginBottom="78dp"
+        android:text="Remember me" />
+
+
+</RelativeLayout>

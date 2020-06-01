@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:id="@+id/drawer_layout"
+    android:layout_height="match_parent"
+    tools:context=".home"
+    android:fitsSystemWindows="true"
+    tools:openDrawer="start">
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/nav_view"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/main_menu"
+        android:layout_gravity="start"/>
+
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            >
+            <include
+                android:id="@+id/toolbar"
+                layout="@layout/toolbar"></include>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+
+            android:text="Welcome User!"
+            android:textAlignment="center"
+            android:textSize="35dp"
+
+            />
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id2"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                 <ImageView
+                     android:id="@+id/eveImg"
+                     android:layout_width="80dp"
+                     android:layout_height="80dp"
+                     android:transitionName="pic"
+                     android:src="@drawable/event"
+                     android:layout_marginRight="240dp"></ImageView>
+
+                    <TextView
+                        android:id="@+id/eventHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:text=" Events"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:transitionName="text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Find upcoming events here!
+                        know details,
+click the card to get more
+info!"
+                        android:textSize="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="140dp"
+                        />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:id="@+id/id3"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/lfHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:transitionName="lftext"
+                        android:text=" Lost-Found"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Lost/Found something?
+complain here and let others
+ knowwhat you've found/lost!"
+                        android:textSize="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="140dp"
+                        />
+
+
+                    <ImageView
+                        android:id="@+id/lfImg"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="240dp"
+                        android:contentDescription="todo"
+                        android:src="@drawable/lost"
+                        android:transitionName="lfimg"></ImageView>
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:id="@+id/id4"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/foodImage"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="todo"
+                        android:layout_marginRight="240dp"
+                        android:transitionName="food"
+                        android:src="@drawable/food"></ImageView>
+
+                    <TextView
+                        android:id="@+id/foodHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:text=" Food ordering"
+                        android:transitionName="textfood"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Order your food here
+make payment through
+e wallets or UPI"
+                        android:textSize="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="140dp"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="120dp"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:id="@+id/compImg"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="240dp"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/complain"
+                        android:transitionName="compimg"></ImageView>
+
+                    <TextView
+                        android:id="@+id/compHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="140dp"
+                        android:text="Complaints"
+                        android:transitionName="comptext"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Have a complaint
+make your self heard!
+ raise your complaint here!"
+                        android:textSize="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="140dp"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
+

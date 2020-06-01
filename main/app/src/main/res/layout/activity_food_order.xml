@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".food_order">
+
+    <RelativeLayout
+        android:layout_width="328dp"
+        android:layout_height="464dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:background="@drawable/blueborder">
+
+        <RelativeLayout
+            android:layout_width="345dp"
+            android:layout_height="286dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+            android:layout_marginEnd="-3dp"
+            android:layout_marginRight="-3dp"
+            android:layout_marginBottom="-4dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <LinearLayout
+                android:layout_width="85dp"
+                android:layout_height="20dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="59dp"
+                android:layout_marginRight="59dp"
+                android:layout_marginBottom="133dp"
+                android:background="@drawable/grbg">
+
+                <Button
+                    android:id="@+id/addBtn"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_bg"
+                    android:text="+"></Button>
+
+                <TextView
+                    android:id="@+id/setText"
+                    android:layout_width="30dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_bg"
+                    android:gravity="center"
+                    android:text="@string/_0"
+                    android:textColor="@color/brown"></TextView>
+
+                <Button
+                    android:id="@+id/subBtn"
+                    android:layout_width="24dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/btn_bg"
+                    android:text="-"></Button>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/foodName"
+                android:layout_width="300dp"
+
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="31dp"
+                android:layout_marginRight="31dp"
+                android:layout_marginBottom="0dp"
+                android:text="@string/food"
+                android:textAlignment="center"
+                android:textColor="@color/brown"
+                android:textSize="30sp"></TextView>
+
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="60dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="103dp"
+                android:layout_marginRight="103dp"
+                android:layout_marginBottom="13dp"
+                android:background="@drawable/rb"
+                android:text="@string/order"
+                android:id="@+id/cPay"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="113dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="140dp"
+                android:layout_marginRight="140dp"
+                android:layout_marginBottom="177dp"
+                android:text="@string/price_per_1_unit" />
+
+            <TextView
+                android:id="@+id/unitPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+
+                android:layout_marginEnd="117dp"
+                android:layout_marginRight="117dp"
+                android:layout_marginBottom="177dp"
+                android:inputType="number"
+                android:text="@string/_40" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="159dp"
+                android:layout_marginRight="159dp"
+                android:layout_marginBottom="133dp"
+                android:text="@string/select_quantity" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="180dp"
+                android:layout_marginRight="180dp"
+                android:layout_marginBottom="93dp"
+                android:text="@string/total_price" />
+
+            <TextView
+                android:id="@+id/totalPrice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginEnd="122dp"
+                android:layout_marginRight="122dp"
+                android:layout_marginBottom="96dp"
+                android:inputType="number"
+                android:text="@string/_0rs" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="340dp"
+            android:layout_height="147dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+
+
+            android:layout_marginEnd="4dp"
+            android:layout_marginRight="4dp"
+            android:layout_marginBottom="290dp"
+            app:layout_constraintBottom_toBottomOf="parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/food"></ImageView>
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

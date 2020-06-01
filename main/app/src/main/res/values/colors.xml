@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFFFFFFF</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#003439</color>
+    <color name="Grbg">#595959</color>
+    <color name="grbg">#717171</color>
+    <color name="bg">#FF003439</color>
+    <color name="text">#FF717171</color>
+    <color name="blue">#00E6F8</color>
+    <color name="card">#FFB4CDCF</color>
+    <color name="entry">#FF00E6F8</color>
+    <color name="brown">#101010</color>
+</resources>

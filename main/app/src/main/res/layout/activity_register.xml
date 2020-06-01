@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="19dp"
+
+
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="104dp"
+        android:hint="  Password"
+        android:textColorHint="@color/entry"
+        app:boxStrokeColor="@color/entry"
+        android:transitionName="password"
+        app:passwordToggleEnabled="true"
+        app:passwordToggleTint="@color/blue">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/passReg"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+
+            android:drawableStart="@drawable/person"
+            android:drawableLeft="@drawable/person"
+            android:inputType="textPassword"
+            android:paddingStart="10dp"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/entry">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="350dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:layout_marginBottom="478dp"
+        android:hint="  username"
+        android:textColorHint="@color/entry"
+        android:transitionName="username"
+        app:boxStrokeColor="@color/entry">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/unReg"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/person"
+            android:drawableLeft="@drawable/person"
+            android:paddingStart="10dp"
+
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/entry">
+            >
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="19dp"
+
+
+        android:layout_marginRight="19dp"
+        android:layout_marginBottom="176dp"
+        android:hint="  Mobile no"
+        android:textColorHint="@color/entry"
+        app:boxStrokeColor="@color/entry">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/mobReg"
+            android:layout_width="350dp"
+            android:layout_height="62dp"
+            android:layout_marginTop="20dp"
+            android:inputType="number"
+            android:drawableStart="@drawable/phone"
+            android:drawableLeft="@drawable/phone"
+            android:paddingStart="10dp"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/entry">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="21dp"
+
+
+        android:layout_marginRight="21dp"
+        android:layout_marginBottom="257dp"
+        android:hint="  Idno"
+        android:textColorHint="@color/entry"
+        app:boxStrokeColor="@color/entry">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/idReg"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/roll"
+            android:drawableLeft="@drawable/roll"
+            android:paddingStart="10dp"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/entry">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="25dp"
+
+
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="332dp"
+        android:hint="  Designation"
+        android:textColorHint="@color/entry"
+        app:boxStrokeColor="@color/entry">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/desReg"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/school"
+            android:drawableLeft="@drawable/school"
+            android:paddingStart="10dp"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/entry">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="25dp"
+
+
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="406dp"
+        android:hint="  Email"
+        android:textColorHint="@color/entry"
+        app:boxStrokeColor="@color/entry">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/emReg"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:drawableStart="@drawable/ic_email_black_24dp"
+            android:drawableLeft="@drawable/ic_email_black_24dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/blue"
+            app:boxStrokeColor="@color/entry">
+
+
+        </com.google.android.material.textfield.TextInputEditText>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/hReg"
+        android:layout_width="208dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="56dp"
+        android:transitionName="button"
+        android:layout_marginEnd="101dp"
+        android:layout_marginRight="101dp"
+        android:layout_marginBottom="46dp"
+        android:background="@drawable/rb"
+        android:text="signup"
+        android:textColor="#ffffffff"
+
+        app:layout_constraintHorizontal_bias="0.456" />
+
+    <ImageView
+        android:id="@+id/regImg"
+        android:layout_width="130dp"
+        android:layout_height="106dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="142dp"
+        android:layout_marginRight="142dp"
+        android:layout_marginBottom="580dp"
+        android:src="@drawable/ic_person_black_24dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="167dp"
+        android:layout_marginRight="167dp"
+        android:layout_marginBottom="16dp"
+        android:text="Already have an account?" />
+
+    <TextView
+        android:id="@+id/mLi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="113dp"
+        android:layout_marginRight="113dp"
+        android:layout_marginBottom="16dp"
+        android:text="LOGIN"
+        android:textColor="@color/blue" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginRight="74dp"
+        android:layout_marginBottom="697dp"
+        android:text="Register your Account!"
+        android:textColor="@color/brown"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>

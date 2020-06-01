@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".lostfound">
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp">
+
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_alignParentLeft="true"
+                android:layout_height="60dp"
+                android:src="@drawable/menu"
+
+
+                ></ImageView>
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_alignParentRight="true"
+                android:layout_height="80dp"
+                ></ImageView>
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Welcome User!"
+            android:textAlignment="center"
+            android:textSize="35dp"
+
+            />
+
+        <ImageView
+            android:id="@+id/back"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="150dp"
+            android:transitionName="lfimg"
+            android:src="@drawable/lost"
+           ></ImageView>
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/eventHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:text=" lost Something?"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:transitionName="text" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" report your lost item here! let other people help you to find it!"
+                        android:textSize="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="10dp"
+                        />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:id="@+id/id3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/lfHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="80dp"
+                        android:text=" Found Something?"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Report the item you've found over here! let the owner of the item know"
+                        android:textSize="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="10dp"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:id="@+id/id4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+
+                    <TextView
+                        android:id="@+id/foodHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text=" Know all the lost/found items "
+                        android:transitionName="textfood"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="know the items which were either lost or found by someone!"
+                        android:textSize="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="10dp"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>

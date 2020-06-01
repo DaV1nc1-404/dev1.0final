@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".admin_event">
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="258dp"
+            android:background="@drawable/bluecurve">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="160dp"
+                android:paddingTop="20dp"
+                android:src="@drawable/event"
+                android:transitionName="pic">
+
+
+            </ImageView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="89dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+
+                android:fontFamily="@font/archivo_narrow"
+                android:text="Welcome Admin
+                                                          Update the events"
+                android:textAlignment="center"
+                android:textSize="25dp"
+                android:transitionName="text"></TextView>
+
+
+        </RelativeLayout>
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="40dp"
+            android:alignmentMode="alignMargins"
+            android:columnCount="2"
+            android:columnOrderPreserved="false"
+            android:rowCount="10">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/evCl1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 1"
+                        android:textSize="30dp"></TextView>
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:id="@+id/id3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/evCl2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 2"
+                        android:textSize="30dp"></TextView>
+
+
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:id="@+id/id4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text=" Food ordering"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="140dp"/>
+
+                    <TextView
+                        android:id="@+id/evCl3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 3"
+                        android:textSize="30dp"></TextView>
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 4"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 5"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 6"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 7"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <TextView
+                        android:id="@+id/evCl8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 8"
+                        android:textSize="30dp"
+                        ></TextView>
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 9"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 10"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 11"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 12"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl13"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 13"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl14"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 14"
+                        android:textSize="30dp"></TextView>
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+
+                    <TextView
+                        android:id="@+id/evCl15"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 15"
+                        android:textSize="30dp"></TextView>
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <TextView
+                        android:id="@+id/evCl16"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Event 16"
+                        android:textSize="30dp"></TextView>
+
+
+
+
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>

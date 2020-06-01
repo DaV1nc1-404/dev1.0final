@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminhome">
+    <LinearLayout
+
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp">
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Welcome Admin!"
+            android:textAlignment="center"
+            android:textSize="35dp"
+
+            />
+
+        <GridLayout
+            android:layout_marginTop="40dp"
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp"
+                tools:targetApi="lollipop">
+
+                <RelativeLayout
+                    android:id="@+id/id2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <ImageView
+                        android:id="@+id/eveImg"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:transitionName="evenpic"
+                        android:src="@drawable/event"
+                        android:layout_marginRight="240dp"></ImageView>
+
+
+                    <TextView
+                        android:id="@+id/eventHome"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:text=" events"
+                        android:textSize="30dp"
+                        android:textStyle="bold"
+                        android:transitionName="evetext" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="120dp"
+                        android:text=" Update upcoming events."
+                        android:textSize="15dp" />
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:id="@+id/id3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginRight="240dp"
+                        android:transitionName="compimg"
+                        android:contentDescription="TODO"
+                        android:src="@drawable/complain"></ImageView>
+
+                    <TextView
+                        android:id="@+id/comtext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:text=" Complaints"
+                        android:transitionName="comptext"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Know about the complaints raised by the students"
+                        android:textSize="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="120dp"
+                        />
+
+
+
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <RelativeLayout
+                    android:id="@+id/id4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="16dp">
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:contentDescription="todo"
+                        android:transitionName="lfimg"
+                        android:layout_marginRight="240dp"
+                        android:src="@drawable/lost"></ImageView>
+
+
+
+                    <TextView
+                        android:id="@+id/lftext"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:text=" Lost found"
+                        android:transitionName="lftext"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="know the items which were either lost or found by someone!"
+                        android:textSize="15dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginLeft="120dp"
+                        />
+
+
+
+                </RelativeLayout>
+            </androidx.cardview.widget.CardView>
+
+
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

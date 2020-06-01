@@ -1,0 +1,119 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorPrimary"
+    android:layout_height="match_parent"
+    tools:context=".eventshow">
+    <RelativeLayout
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        android:layout_marginLeft="30dp"
+        android:background="@drawable/blueborder"
+
+        android:layout_marginTop="150dp"
+       >
+
+        <TextView
+            android:id="@+id/eveName"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+
+            android:text="Event2"
+
+            android:textAlignment="center"
+            android:textColor="@color/brown"
+            android:textSize="30dp"></TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginRight="136dp"
+            android:layout_marginBottom="295dp"
+            android:text="Description"
+            android:textAlignment="center"
+            android:textColor="@color/brown"></TextView>
+
+        <TextView
+            android:id="@+id/eveCt"
+            android:layout_width="186dp"
+            android:layout_height="41dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:padding="10dp"
+            android:background="@drawable/blueborder"
+            android:layout_marginBottom="27dp"
+
+            android:text="mobile no"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginBottom="127dp"
+            android:text="Date and Time"
+            android:textColor="@color/brown"></TextView>
+
+        <TextView
+            android:id="@+id/eveDescp"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="30dp"
+            android:padding="20dp"
+            android:background="@drawable/blueborder"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="181dp"
+
+            android:text="A shprt description about the event"></TextView>
+
+
+        <TextView
+            android:id="@+id/eveDt"
+            android:layout_width="179dp"
+            android:layout_height="52dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="43dp"
+            android:layout_marginRight="43dp"
+            android:layout_marginBottom="111dp"
+            android:background="@drawable/blueborder"
+            android:padding="10dp"
+
+            android:text="Date and Time"></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="245dp"
+            android:layout_marginRight="245dp"
+            android:layout_marginBottom="37dp"
+            android:text="contact"
+            android:textColor="@color/brown"></TextView>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
